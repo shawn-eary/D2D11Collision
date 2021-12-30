@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- This Collision Sample is based off of the Microsoft D2DBasicAnimation Example -->
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="Microsoft.SDKSamples.D2DBasicAnimation.CPP" Publisher="CN=ConservativeArt, O=ConservativeArt, L=Lawton, S=OK, C=US" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>D2D Collision Sample</DisplayName>
+    <PublisherDisplayName>Conservative Art</PublisherDisplayName>
+    <Logo>storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3</OSMinVersion>
+    <OSMaxVersionTested>6.3</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application Id="DirectXApplication.App" Executable="D2DCollision.exe" EntryPoint="DirectXApplication.App">
+      <m2:VisualElements DisplayName="D2D Collision Sample" Description="Demonstrates Collision Testing, Animation and Gradiant Brushes" BackgroundColor="#00b2f0" ForegroundText="light" Square150x150Logo="Logo.png" Square30x30Logo="SmallLogo.png">
+        <m2:DefaultTile ShortName="D2D Collision Sample">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:SplashScreen BackgroundColor="#000000" Image="SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>
